@@ -4,8 +4,9 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/bt3"
+        android:id="@+id/test_b"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="朋友圈"/>
+        android:text="测试"/>
+
 </LinearLayout>

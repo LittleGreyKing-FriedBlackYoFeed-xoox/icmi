@@ -1,0 +1,9 @@
+<litepal>
+    <dbname value="cool_weather" />
+    <version value="1" />
+    <list>
+        <mapping class="www.xyz.icmi.db.Province" />
+        <mapping class="www.xyz.icmi.db.City" />
+        <mapping class="www.xyz.icmi.db.County" />
+    </list>
+</litepal>
