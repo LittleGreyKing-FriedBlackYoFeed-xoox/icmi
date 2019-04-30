@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -64,6 +65,7 @@ public class Index extends AppCompatActivity {
                 startActivity(i3);
                 break;
             case R.id.i_select:
+                Log.d("Index","断点1");
                 Toast.makeText(Index.this,"i_select",Toast.LENGTH_SHORT).show();
                 break;
         }
